@@ -20,41 +20,17 @@ The comprehensive guide to Dialectic-Driven Development methodology.
 
 Teaches using specs, plans, and tight feedback loops with toy models and a CLI+JSON "debugger mindset" to build software with clarity and speed.
 
-**What's inside:**
-- Three atomic modes: Research, Discovery, Execution
-- Meta-modes and workflow patterns
-- Toy model discipline and TDD
-- Real-world case studies
-- Agent-oriented authoring guides
-
 ### [🎮 ddd-nes](https://github.com/dialecticianai/ddd-nes)
 
 NES game development demonstrating Learning meta-mode (Research ↔ Discovery).
 
-Building an NES game from scratch to create comprehensive, AI-agent-friendly documentation of NES development. Primary deliverable: mdBook teaching NES dev. Secondary: Toy library with working reference implementations.
-
-**Key innovations:**
-- 52 NESdev wiki pages → 11 learning documents
-- 43 catalogued open questions
-- Test-driven infrastructure (Perl + Test::More)
-- 3-attempt rule and partial validation
-- Timeboxing discipline
-
-**Status:** 8+ toys complete, 66+ tests passing
+Building an NES game from scratch to create comprehensive, AI-agent-friendly documentation of NES development.
 
 ### [⚙️ Hegel CLI](https://github.com/dialecticianai/hegel-cli)
 
 Workflow orchestration tool that operationalizes DDD methodology.
 
 State machine-based CLI for guiding structured development cycles with deterministic guardrails, metrics tracking, and real-time observability.
-
-**Features:**
-- YAML-defined workflows (discovery/execution/research modes)
-- Guide injection system (SPEC_WRITING, PLAN_WRITING, etc.)
-- Claude Code integration (hooks, event capture)
-- Metrics dashboard (`hegel top` TUI)
-- Event stream correlation (hooks + states + transcripts)
-- Deterministic rule system (no LLM-based enforcement)
 
 ---
 

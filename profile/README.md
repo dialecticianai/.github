@@ -26,11 +26,13 @@ NES game development demonstrating Learning meta-mode (Research ↔ Discovery).
 
 Building an NES game from scratch to create comprehensive, AI-agent-friendly documentation of NES development.
 
-### [⚙️ Hegel CLI](https://github.com/dialecticianai/hegel-cli)
+### [⚙️ Hegel](https://github.com/dialecticianai/hegel-workspace)
 
 Workflow orchestration tool that operationalizes DDD methodology.
 
-State machine-based CLI for guiding structured development cycles with deterministic guardrails, metrics tracking, and real-time observability.
+**[Hegel CLI](https://github.com/dialecticianai/hegel-cli)** - State machine-based CLI for guiding structured development cycles with deterministic guardrails, metrics tracking, and real-time observability.
+
+**[Mirror](https://github.com/dialecticianai/hegel-mirror)** - Ephemeral Markdown review UI for approving AI-generated specs and plans with inline commenting.
 
 ---
 
@@ -72,14 +74,15 @@ Read the [DDD Book](https://dialecticianai.github.io/ddd-book/) to understand th
 
 ### Try the Tooling
 
-Install [Hegel CLI](https://github.com/dialecticianai/hegel-cli) to orchestrate DDD workflows:
+Install [Hegel](https://github.com/dialecticianai/hegel-workspace) to orchestrate DDD workflows:
 
 ```bash
-git clone https://github.com/dialecticianai/hegel-cli
-cd hegel-cli
-cargo build --release
-./target/release/hegel start discovery
+git clone --recursive https://github.com/dialecticianai/hegel-workspace
+cd hegel-workspace
+./scripts/build-and-install.sh
 ```
+
+This installs both `hegel` (CLI) and `mirror` (review UI) to `~/.cargo/bin/`.
 
 ### See It in Practice
 
@@ -126,7 +129,7 @@ Dialectician AI is dedicated to advancing AI-assisted software development throu
 
 Projects under Dialectician AI use a mix of licenses:
 - **DDD Book content**: Personal-Use license (no redistribution)
-- **Hegel CLI**: Server Side Public License v1 (SSPL)
+- **Hegel CLI & Mirror**: Server Side Public License v1 (SSPL)
 - **ddd-nes**: Check repository for specific license
 - **Project scaffolding/tools**: Generally MIT licensed
 

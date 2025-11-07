@@ -32,7 +32,11 @@ Workflow orchestration tool that operationalizes DDD methodology.
 
 **[Hegel CLI](https://github.com/dialecticianai/hegel-cli)** - State machine-based CLI for guiding structured development cycles with deterministic guardrails, metrics tracking, and real-time observability.
 
-**[Mirror](https://github.com/dialecticianai/hegel-mirror)** - Ephemeral Markdown review UI for approving AI-generated specs and plans with inline commenting.
+**[Hegel Mirror](https://github.com/dialecticianai/hegel-mirror)** - Ephemeral Markdown review UI for approving AI-generated specs and plans with inline commenting.
+
+**[Hegel PM](https://github.com/dialecticianai/hegel-pm)** - Project manager with web UI that auto-discovers Hegel projects, visualizes workflow states, and provides a unified dashboard.
+
+**[Hegel IDE](https://github.com/dialecticianai/hegel-ide)** - Electron-based no-code IDE for AI-first development. No code editor by design - work at the orchestration level.
 
 ---
 
@@ -82,7 +86,7 @@ cd hegel-workspace
 ./scripts/build-and-install.sh
 ```
 
-This installs both `hegel` (CLI) and `mirror` (review UI) to `~/.cargo/bin/`.
+This installs `hegel` (CLI), `mirror` (review UI), and `hegel-pm` (project manager) to `~/.cargo/bin/`.
 
 ### See It in Practice
 
@@ -129,7 +133,7 @@ Dialectician AI is dedicated to advancing AI-assisted software development throu
 
 Projects under Dialectician AI use a mix of licenses:
 - **DDD Book content**: Personal-Use license (no redistribution)
-- **Hegel CLI & Mirror**: Server Side Public License v1 (SSPL)
+- **Hegel tools** (CLI, Mirror, PM, IDE): Server Side Public License v1 (SSPL)
 - **ddd-nes**: Check repository for specific license
 - **Project scaffolding/tools**: Generally MIT licensed
 

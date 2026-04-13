@@ -30,7 +30,7 @@ Building an NES game from scratch to create comprehensive, AI-agent-friendly doc
 
 Workflow orchestration tool that operationalizes DDD methodology.
 
-**[Hegel CLI](https://github.com/dialecticianai/hegel-cli)** - State machine-based CLI for guiding structured development cycles with deterministic guardrails, metrics tracking, and real-time observability.
+**Hegel CLI** - State machine-based CLI for guiding structured development cycles with deterministic guardrails, metrics tracking, and real-time observability. *(No longer open source)*
 
 **[Hegel Mirror](https://github.com/dialecticianai/hegel-mirror)** - Ephemeral Markdown review UI for approving AI-generated specs and plans with inline commenting.
 
